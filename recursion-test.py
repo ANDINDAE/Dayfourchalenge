@@ -1,8 +1,3 @@
-import unittest
-
-from recursion.computelistsum import compute_sum
-
-
 class Testcomputesum(unittest.TestCase):
 
     def test_computesum_with_negative_items(self):
