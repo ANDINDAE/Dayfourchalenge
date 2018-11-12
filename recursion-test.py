@@ -1,6 +1,4 @@
-class Testcomputesum(unittest.TestCase):
-
-    def test_computesum_with_negative_items(self):
+def test_computesum_with_negative_items(self):
         self.assertEqual(compute_sum([1, -2, -3, [4, 6]]), 6)
 
     def test_computesum(self):
